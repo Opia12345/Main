@@ -1,0 +1,154 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    }
+h1{
+  font-size: 3em;
+  font-weight: bolder;
+}
+.lead-2{
+  color: white;
+}
+small{
+  color: white;
+}
+.nav ul li.active a{
+    text-decoration: underline;
+    text-decoration-color: rgb(103, 199, 255);
+    text-underline-offset: 1em;
+    
+      }
+    .navbar{
+      position: absolute;
+      width: 100%;
+    }
+      .btn{
+        border-radius: 10px;
+      }
+ 
+    
+    .circle{
+      margin-top:3em ;
+      width: auto;
+      height: 12em;
+      padding-top: 1.5em;
+      text-align: center;
+      border-radius: 10px;
+      background: rgba(126, 126, 126, 0.199);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+    }
+    .popup{
+      width: 300px;
+      height: auto;
+      border-radius: 6px;
+      position: absolute;
+      transform: translate(-50%, -50%) scale(0.1);
+      text-align: center;
+      top: 0;
+      left: 50%;
+      padding:0 30px 30px;
+      border-radius: 10px;
+       background: rgba(126, 126, 126, 0.938);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+      visibility: hidden;
+      transition: transform 0.4s top 0.4s;
+    }
+    .popup i{
+      width: 50px;
+      margin-top: -50%;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    .popup button{
+      width: 20em;
+    }
+    i.fa-times{
+      animation: animate 3s linear infinite;
+      text-shadow: 0 0 50px #ffffff;
+      font-size: 3em;
+      background-color: rgb(103, 199, 255);
+      border-radius: 2em;
+    }
+    .open-popup{
+      visibility: visible;
+      top: 50%;
+      transform: translate(-50%, -50%) scale(1);
+
+    }
+  
+    i.fa-shield{
+      color:rgb(255, 0, 0); 
+      font-size: 4em;
+      text-decoration-line: underline;
+      animation: animate 3s linear infinite;
+      text-shadow: 0 0 50px #ff0000;
+    }
+    i.fa-signal{
+      color:turquoise; 
+      font-size: 4em; 
+      text-decoration-line: underline;
+      animation: animate 3s linear infinite;
+      text-shadow: 0 0 50px rgb(103, 199, 255);
+    }
+    i.fa-check{
+      color:rgb(255, 174, 0); 
+      font-size: 4em;
+      text-decoration-line: underline; 
+      animation: animate 3s linear infinite;
+      text-shadow: 0 0 50px yellow;
+    }
+    i.fa-sign-out{
+      color:rgb(255, 255, 255); 
+      font-size: 4em;  
+      text-decoration-line: underline;
+      animation: animate 3s linear infinite;
+      text-shadow: 0 0 50px rgb(255, 255, 255);
+    }
+    .square{
+      margin-top:3em ;
+      width: auto;
+      height:auto;
+      padding-top: 2em;
+      text-align: center;
+      border-radius: 10px;
+      background: rgba(126, 126, 126, 0.199);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+     
+    }
+    .form-control{
+      color: white;
+       border: none;
+       border-radius: 0;
+       background: transparent;
+       border-bottom:1px solid white ;
+       box-shadow: none;
+       -webkit-box-shadow:none;
+       width: 25em;
+     }
+     .container-1{
+      width: auto;
+      max-height: fit-content;
+      text-align: center;
+      background: rgba(126, 126, 126, 0.199);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+     
+     }
+     .square-1{
+      margin-top:3em ;
+      width: auto;
+      height:auto;
+      padding-top: 2em;
+      text-align: center;
+      border-radius: 10px;
+      background: rgba(126, 126, 126, 0.199);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+  
+    }
+footer{
+  font-size: 1.4em;
+
+}
